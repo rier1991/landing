@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi Home</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <!-- We need this line below for responsiveness! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/cards.css">
+  </head>
+  <body>
+    <div class="banner" style="background-image: url(images/banner.jpg);">
+      <section class="overlay">
+        <h1>REGISTER YOUR INTEREST</h1>
+        <p>We will contact you soon!</p>
+        <form action="submission.html" method="GET">
+          <form>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname">
+          </form>
+          <form>
+            Telephone:<br>
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+          </form>
+          <form action="/action_page.php">
+            E-mail:<br>
+            <input type="email" name="email">
+          </form>
+          <br>
+          <input type="submit" value="Submit" class="btn2">
+        </form>
+      </section>
+    </div>
+
+
+    <footer>
+      <div class="content">
+        <div class="logo"><img src="images/logo.png"></div>
+        <div class="email">mimi.gao1001@hotmail.com</div>
+        <div class="email-sub">Yes I know I'm still using hotmail!</div>
+
+        <ul class="list-inline">
+          <li><a href=""><i class="fab fa-github"></i></a></li>
+          <li><a href=""><i class="fab fa-weixin"></i></i></a></li>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

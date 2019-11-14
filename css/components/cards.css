@@ -1,0 +1,38 @@
+.introduction {
+  width: 900px;
+  margin: auto;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.card h4 {
+  color:  #eadea6;
+  /*text-shadow: 2px 2px 3px rgba(100,100,100,0.2);*/
+  margin: 0;
+}
+
+.card p {
+  opacity: .5;
+  margin: 0;
+}
+
+.card {
+  width: 500px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  margin: 10px;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
